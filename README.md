@@ -1,3 +1,30 @@
+# Aesthetic
+## Photo search web application 
+Your solution needs to satisfy all of these. There are a couple specific server/client needs, but
+beyond those, the implementation is up to you. Use any tools, libraries, and frameworks you think
+best accomplish the task. (See below user stories for these requirements)
+Display 10 curated photos on the home screen. Use the Pexels curated photos resource to
+render these photos.
+Provide pagination for Curated photos. Paging should not cause a page refresh. From the
+client side initiate the needed requests to allow the user to go forward and backward 10
+photos at a time
+Provide a photo search. Searching should not cause a page refresh. Consume the photo
+search resource and display the results to the user, along with pagination, if needed
+These are the requirements
+
+## User Stories
+[DONE] I can see an initial set of curated photos on the home screen
+[DONE] I am able to access the the photographerʼs name and url if those details are available for
+every photo
+[DONE]I can paginate the list of curated photos
+[DONE]I can use a text input to search for photos Iʼm interested
+[DONE]I can see the results of my search in the photo viewing area
+[DONE]I can paginate search results if needed
+[DONE]I should not be shown the "previous" paginiation button when there is no previous page
+[Not done]I can refresh my browser and retain my search query and/or page
+
+## Note: Before starting, please insert your API_KEY on line 8 of Api.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

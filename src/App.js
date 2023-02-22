@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import SearchPhotos from './Components/SearchPhotos'
+import { createClient } from 'pexels'
+import './styles.scss'
 
-function App() {
+function App () {
+  const client = createClient(
+    'xtdPiVz1ZIXK8qwGuMk5DtGI0X85QIb8phT5o3KXoBUIgKHcQUfJz6Ax'
+  ) // TODO: hide this
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='container'>
+        <div className='heading text-center'>
+          <h1 className='display-1 '> Aesthetic </h1>
+          <small class='text-muted'> curated images from Pexels</small>
+        </div>
+        <SearchPhotos client={client} />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
