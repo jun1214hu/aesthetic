@@ -1,4 +1,8 @@
 # Aesthetic
+![Screenshot of Website](Aesthetic_Dogs.png)
+
+Accessible at [github pages](https://jun1214hu.github.io/aesthetic/)
+
 ## Photo search web application 
 Your solution needs to satisfy all of these. There are a couple specific server/client needs, but
 beyond those, the implementation is up to you. Use any tools, libraries, and frameworks you think
