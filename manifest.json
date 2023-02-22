@@ -1,0 +1,10 @@
+{
+    "short_name": "Pexel App",
+    "name": "App for Rokt using Pexel",
+    "icons": [
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }

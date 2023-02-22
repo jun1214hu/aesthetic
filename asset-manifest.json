@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aesthetic/static/css/main.9d02ff6c.css",
+    "main.js": "/aesthetic/static/js/main.de1e0d9d.js",
+    "static/js/787.3f0f8dfb.chunk.js": "/aesthetic/static/js/787.3f0f8dfb.chunk.js",
+    "index.html": "/aesthetic/index.html",
+    "main.9d02ff6c.css.map": "/aesthetic/static/css/main.9d02ff6c.css.map",
+    "main.de1e0d9d.js.map": "/aesthetic/static/js/main.de1e0d9d.js.map",
+    "787.3f0f8dfb.chunk.js.map": "/aesthetic/static/js/787.3f0f8dfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d02ff6c.css",
+    "static/js/main.de1e0d9d.js"
+  ]
+}
